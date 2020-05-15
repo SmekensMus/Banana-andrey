@@ -33,6 +33,7 @@ img {
 
 li:hover .sublist-music{
     display: block;
+    color: black;
 }
 
 li{
