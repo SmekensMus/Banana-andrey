@@ -29,9 +29,10 @@ img {
     flex-wrap: nowrap;
     justify-content: space-around;
     list-style: none;
+    font-size: 35px;
 }
 
-li:hover .sublist-music{
+.list:hover .sublist-music .sublist-podcasts {
     display: block;
     color: black;
 }
