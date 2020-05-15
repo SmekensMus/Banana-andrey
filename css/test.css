@@ -31,9 +31,13 @@ img {
     list-style: none;
 }
 
+li:hover .sublist-music{
+    display: block;
+}
+
 li{
     background-color: white;
-    border-radius: 33%;
+    border-radius: 30%;
 }
 
 li:hover{
