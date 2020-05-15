@@ -3,10 +3,7 @@
 	height: 100vh;
 	background: linear-gradient(rgb(243, 243, 243), pink);
 }*/
-*{
 
-color: black;
-}
 
 body {
 	
@@ -14,10 +11,9 @@ body {
 	background-image: url(../images/top.png), url(../images/achtergrond.png);
 	background-size: cover ;
 	font-family: 'Neucha', cursive;
+	background-repeat: no-repeat;
 	
 }
-
-
 
 
 img {
@@ -26,31 +22,31 @@ img {
 	
 }
 ul {
-	place-content: center;
+	display: block;
 	margin:  0px;
 	padding: 0px;
 	list-style: none;
+	align-content: space-between;
 }
 ul li {
 	float: left;
 	width: 250px;
 	height: 40px;
 	opacity: .9;
-	background-color:#E77178;
 	line-height: 40px;
 	text-align: center;
 	font-size: 35px;
-	position: relative;
-
+	position: static;
 }
 
 ul li a {
-	text-decoration: none;
-	color: white;
+	color: black;
 	display: block;
+	border-radius: 35%;
+	background-color: white;
 }
 ul li a:hover{
-	background-color: rgb(138, 236, 243);
+	background-color: #A1CCB6;
 }
 ul li ul li {
 	display: none;
