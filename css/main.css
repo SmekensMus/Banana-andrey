@@ -11,7 +11,7 @@ color: black;
 body {
 	
 	
-	background-image: url(/images/top.png), url(/images/achtergrond.png);
+	background-image: url(../images/top.png), url(../images/achtergrond.png);
 	background-size: cover ;
 	font-family: 'Neucha', cursive;
 	
@@ -36,11 +36,11 @@ ul li {
 	width: 250px;
 	height: 40px;
 	opacity: .9;
-background-color:#E77178;
-line-height: 40px;
-text-align: center;
-font-size: 35px;
-position: relative;
+	background-color:#E77178;
+	line-height: 40px;
+	text-align: center;
+	font-size: 35px;
+	position: relative;
 
 }
 
