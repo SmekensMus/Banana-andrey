@@ -10,6 +10,11 @@ body {
 	
 }
 
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
 img {
 	width: 1000px;
@@ -22,11 +27,7 @@ a {
   }
   
   nav {
-        font-family: monospace;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-evenly;
+    display: block;
   }
   
   ul {
@@ -36,8 +37,9 @@ a {
   }
   
   li {
-    display: block;
+    display: flex;
     float: left;
+    justify-content: space-around;
     padding: 1rem;
     position: relative;
     text-decoration: none;
