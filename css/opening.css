@@ -1,0 +1,17 @@
+body{
+    background-image: url(../images/top.png), url(../images/achtergrond.png);
+    background-size: cover;
+    font-family: 'Neucha', cursive;
+    background-repeat: no-repeat;
+}
+
+a {
+    background: transparent;
+    position: absolute;
+    border: none;
+    font-size: 0px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
