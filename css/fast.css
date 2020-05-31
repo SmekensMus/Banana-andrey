@@ -1,0 +1,202 @@
+
+body {
+	
+	
+	background-image: url(../images/top.png), url(../images/f3ade0e10f3b2236aa887e4ab5675ca1-2.jpg);
+	background-size: cover ;
+	font-family: 'Neucha', cursive;
+    background-repeat: repeat;
+    background-size: initial;
+	
+}
+
+.cont{
+    position: absolute;
+    height: 175px;
+    width: 175px;
+    left: 5%;
+    top: 5%;
+}
+
+.yellow-circle {
+  position: absolute;
+  top: 32%;
+  left: 47%;
+  width: 400px;
+  height: 400px;
+  background-color: #A1CCB6;
+  border-radius: 50%;
+}
+
+h1{
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  font-size: 100px;
+  font: 200;
+}
+
+.buttons {
+  position: absolute;
+  height: 200px;
+  width: 300px;
+  top: 50%;
+  left: 13%;
+  cursor: pointer;
+}
+
+.Small-yellow {
+  position: absolute;
+  background-color: #D7EAE3;
+  border-radius: 50%;
+  top: 25%;
+  left: 30%;
+  width: 200px;
+  height: 200px;
+}
+
+p {
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  font-size: 40px;
+}
+
+.EP-2 {
+  position: absolute;
+  background-color: #F6D1BF;
+  border-radius: 50%;
+  height: 125px;
+  width: 125px;
+  top: 80%;
+  left: 45%;
+  cursor: pointer;
+}
+
+.EP-3 {
+  position: absolute;
+  background-color: #F6D1BF;
+  border-radius: 50%;
+  height: 125px;
+  width: 125px;
+  top: 80%;
+  left: 55%;
+  cursor: pointer;
+}
+
+.EP-4 {
+  position: absolute;
+  background-color: #F6D1BF;
+  border-radius: 50%;
+  height: 125px;
+  width: 125px;
+  top: 80%;
+  left: 65%;
+  cursor: pointer;
+}
+
+.banana-girl {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 1000px;
+  width: 550px;
+}
+
+.next {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 82%;
+  left: 75%;
+  cursor: pointer;
+}
+
+.back {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 82%;
+  left: 38%;
+  cursor: pointer;
+}
+
+
+
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+img {
+	width: 1000px;
+	height: 400px;
+	
+}
+
+a {
+    text-decoration: none;
+  }
+  
+  nav {
+    display: block;
+  }
+  
+  ul {
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+  }
+  
+  li {
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    border-radius: 30%;
+    background-color: white;
+  }
+    
+  li a {
+    color: #000;
+  }
+  
+  li:hover,
+  li:focus-within {
+      background-color: #A1CCB6;
+      cursor: pointer;
+  }
+  
+  li:focus-within a {
+    outline: none;
+  }
+  
+  ul li ul {
+      visibility: hidden;
+      opacity: 0;
+      min-width: 5rem;
+      position: absolute;
+      transition: all 0.5s ease;
+      margin-top: 1rem;
+      left: 0;
+      display: none;
+  }
+  
+  ul li:hover > ul,
+  ul li:focus-within > ul,
+  ul li ul:hover,
+  ul li ul:focus {
+    visibility: visible;
+    opacity: 1;
+    display: block
+  }
+  
+  ul li ul li {
+      clear: both;
+    width: 100%;
+  }
