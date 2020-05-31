@@ -5,49 +5,108 @@ body {
 	background-repeat: no-repeat;
 }
 
-.rotten {
+.Rotten {
     position: absolute;
-    background-color: #F8CD6F;
+    background-color: #FDEEB5;
     border-radius: 50%;
     height: 400px;
     width: 400px;
     top: 30%;
-    left: 20%;
-    cursor: pointer;
-}
-
-.spill {
-    position: absolute;
-    background-color: #F8CD6F;
-    border-radius: 50%;
-    height: 400px;
-    width: 400px;
-    top: 30%;
-    left: 45%;
-    cursor: pointer;
-}
-
-.sauce {
-    position: absolute;
-    background-color: #F8CD6F;
-    border-radius: 50%;
-    height: 400px;
-    width: 400px;
-    top: 30%;
-    left: 70%;
-    cursor: pointer;
+    left: 30%;
 }
 
 h1 {
     position: absolute;
-    top: 9%;
-    left: 10%;
     font-size: 90px;
+    left: 15%;
+    top: 5%;
     color: #000;
 }
 
+.Ep-1 {
+    position: absolute;
+    background-color:#F8CD6F;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    top: 30%;
+    left: 60%;
+}
 
+.Ep-1 {
+    position: absolute;
+    background-color:#F8CD6F;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    top: 30%;
+    left: 60%;
+}
 
+.Ep-2 {
+    position: absolute;
+    background-color:#F8CD6F;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    top: 30%;
+    left: 70%;
+}
+
+.Ep-3 {
+    position: absolute;
+    background-color:#F8CD6F;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    top: 45%;
+    left: 60%;
+}
+
+.Ep-4 {
+    position: absolute;
+    background-color:#F8CD6F;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    top: 45%;
+    left: 70%;
+}
+
+.Ep-5 {
+    position: absolute;
+    background-color:#F8CD6F;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    top: 60%;
+    left: 60%;
+}
+
+.Ep-6 {
+    position: absolute;
+    background-color:#F8CD6F;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    top: 60%;
+    left: 70%;
+}
+
+p {
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    font-size:30px;
+}
+
+.banan-girl {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 1000px;
+  width: 550px;
+}
 
 
 .container{
