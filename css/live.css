@@ -94,7 +94,23 @@ p {
   width: 600px;
 }
 
+.next {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 82%;
+  left: 75%;
+  cursor: pointer;
+}
 
+.back {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 82%;
+  left: 38%;
+  cursor: pointer;
+}
 
 
 
