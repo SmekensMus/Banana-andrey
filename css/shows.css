@@ -5,12 +5,45 @@ body {
 	background-repeat: no-repeat;
 }
 
+.rotten {
+    position: absolute;
+    background-color: #F8CD6F;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    top: 30%;
+    left: 20%;
+    cursor: pointer;
+}
 
+.spill {
+    position: absolute;
+    background-color: #F8CD6F;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    top: 30%;
+    left: 45%;
+    cursor: pointer;
+}
 
+.sauce {
+    position: absolute;
+    background-color: #F8CD6F;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    top: 30%;
+    left: 70%;
+    cursor: pointer;
+}
 
-
-
-
+h1 {
+    position: absolute;
+    top: 9%;
+    left: 10%;
+    font-size: 90px;
+}
 
 
 
