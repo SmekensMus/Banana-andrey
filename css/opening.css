@@ -5,6 +5,22 @@ body{
     background-repeat: no-repeat;
 }
 
+h1{
+    position: absolute;
+    font-size: 200px;
+    left: 14%;
+    top: 15%;
+    color: #F5E330;
+}
+
+p {
+    position: absolute;
+    font-size: 100px;
+    left: 25%;
+    top: 59%;
+    color: black;
+}
+
 a {
     background: transparent;
     position: absolute;
@@ -14,4 +30,12 @@ a {
     bottom: 0px;
     left: 0px;
     right: 0px;
+}
+
+.banana {
+    position: absolute;
+    top: 12%;
+    left: 27%;
+    height: 800px;
+    width: 800px;
 }
