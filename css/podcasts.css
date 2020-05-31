@@ -1,0 +1,141 @@
+body {
+	background-image: url(../images/top.png), url(../images/f3ade0e10f3b2236aa887e4ab5675ca1-2.jpg);
+	background-size: cover ;
+	font-family: 'Neucha', cursive;
+    background-repeat: repeat;
+    background-size: initial;
+}
+
+.plants {
+    position: absolute;
+    background-color: #A1CCB6;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    top: 35%;
+    left: 10%;
+    cursor: pointer;
+}
+
+.food {
+    position: absolute;
+    background-color: #A1CCB6;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    top: 35%;
+    left: 30%;
+    cursor: pointer;
+}
+
+.youtubers {
+    position: absolute;
+    background-color: #A1CCB6;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    top: 35%;
+    left: 50%;
+    cursor: pointer;
+}
+
+.mindful {
+    position: absolute;
+    background-color: #A1CCB6;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    top: 35%;
+    left: 70%;
+    cursor: pointer;
+}
+
+
+h1 {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    font-size: 70px;
+    color: #000;
+}
+
+
+
+
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+img {
+	width: 1000px;
+	height: 400px;
+	
+}
+
+a {
+    text-decoration: none;
+  }
+  
+  nav {
+    display: block;
+  }
+  
+  ul {
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+  }
+  
+  li {
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    border-radius: 30%;
+    background-color: white;
+  }
+    
+  li a {
+    color: #000;
+  }
+  
+  li:hover,
+  li:focus-within {
+      background-color: #A1CCB6;
+      cursor: pointer;
+  }
+  
+  li:focus-within a {
+    outline: none;
+  }
+  
+  ul li ul {
+      visibility: hidden;
+      opacity: 0;
+      min-width: 5rem;
+      position: absolute;
+      transition: all 0.5s ease;
+      margin-top: 1rem;
+      left: 0;
+      display: none;
+  }
+  
+  ul li:hover > ul,
+  ul li:focus-within > ul,
+  ul li ul:hover,
+  ul li ul:focus {
+    visibility: visible;
+    opacity: 1;
+    display: block
+  }
+  
+  ul li ul li {
+      clear: both;
+    width: 100%;
+  }
