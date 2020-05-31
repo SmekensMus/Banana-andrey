@@ -1,0 +1,177 @@
+
+body {
+	
+	
+	background-image: url(../images/top.png), url(../images/achtergrond.png);
+	background-size: cover ;
+	font-family: 'Neucha', cursive;
+	background-repeat: no-repeat;
+	
+}
+
+.yellow-circle {
+  position: absolute;
+  top: 32%;
+  left: 47%;
+  width: 400px;
+  height: 400px;
+  background-color: #F8CD6F;
+  border-radius: 50%;
+}
+
+h1{
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  font-size: 75px;
+  font: 200;
+}
+
+.buttons {
+  position: absolute;
+  height: 200px;
+  width: 300px;
+  top: 50%;
+  left: 13%;
+  cursor: pointer;
+}
+
+.Small-yellow {
+  position: absolute;
+  background-color: #FDEEB5;
+  border-radius: 50%;
+  top: 25%;
+  left: 30%;
+  width: 200px;
+  height: 200px;
+}
+
+p {
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  font-size: 40px;
+}
+
+.EP-2 {
+  position: absolute;
+  background-color: #E77178;
+  border-radius: 50%;
+  height: 125px;
+  width: 125px;
+  top: 80%;
+  left: 45%;
+  cursor: pointer;
+}
+
+.EP-3 {
+  position: absolute;
+  background-color: #E77178;
+  border-radius: 50%;
+  height: 125px;
+  width: 125px;
+  top: 80%;
+  left: 55%;
+  cursor: pointer;
+}
+
+.EP-4 {
+  position: absolute;
+  background-color: #E77178;
+  border-radius: 50%;
+  height: 125px;
+  width: 125px;
+  top: 80%;
+  left: 65%;
+  cursor: pointer;
+}
+
+.banana-girl {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 1000px;
+  width: 600px;
+}
+
+
+
+
+
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+img {
+	width: 1000px;
+	height: 400px;
+	
+}
+
+a {
+    text-decoration: none;
+  }
+  
+  nav {
+    display: block;
+  }
+  
+  ul {
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+  }
+  
+  li {
+    display: flex;
+    float: left;
+    justify-content: space-around;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    border-radius: 30%;
+    background-color: white;
+  }
+    
+  li a {
+    color: #000;
+  }
+  
+  li:hover,
+  li:focus-within {
+      background-color: #A1CCB6;
+      cursor: pointer;
+  }
+  
+  li:focus-within a {
+    outline: none;
+  }
+  
+  ul li ul {
+      visibility: hidden;
+      opacity: 0;
+      min-width: 5rem;
+      position: absolute;
+      transition: all 0.5s ease;
+      margin-top: 1rem;
+      left: 0;
+      display: none;
+  }
+  
+  ul li:hover > ul,
+  ul li:focus-within > ul,
+  ul li ul:hover,
+  ul li ul:focus {
+    visibility: visible;
+    opacity: 1;
+    display: block
+  }
+  
+  ul li ul li {
+      clear: both;
+    width: 100%;
+  }
